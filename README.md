@@ -1,0 +1,2 @@
+# SlotGameJS
+Simple Slot Game
