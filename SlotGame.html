@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Game</title>
+    <script src="SlotGame.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <main>
+      <header>
+        <div class="header">
+            <h1>Roll the Dices Game</h1>
+        </div>
+      </header>
+      
+      <p id="dicesTitle">Dices</p>
+
+      <div class="flex_container_dice">
+          <div class="flex_item_dice">
+            <div id="dice1">?</div>
+          </div>
+
+          <div class="flex_item_dice">
+            <div id="dice2">?</div>
+          </div>
+
+          <div class="flex_item_dice">
+            <div id="dice3">?</div>
+          </div>
+
+      </div>
+
+
+        <div class="moneyStatement">
+            <p>Wallet</p>
+        </div>
+        
+        <div id="wallet">0 $</div>
+         <br>
+
+         <div id="answer"></div>
+       
+         <br>
+
+         <div id="betStatus"></div>
+        <br>
+
+        <div class="flex_container">
+            <div class="flex_item">
+                <div id="moneyToWallet">
+                    <form>
+                        <label>Add money: </label> <br> <input type="text" name="money"
+                            id="money" size="9"> <br> <input type="button" id="submit" value="Insert"
+                            onClick="addMoney()">
+                    </form>
+                </div>
+            </div>
+
+            <br>
+            <div id="walletStatus"></div>
+            <br>
+
+            <div class="flex_item">
+                <div id="betToWallet">
+                    <form>
+                        <label>Add bet: </label> <br> <input type="text" name="bet"
+                            id="bet" size="9"> <br> <input type="button" id="submit" value="Insert"
+                            onClick="chooseBet()">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        
+        
+        <div id="roll">
+            <input type="button" id="submit" value="ROLL!"
+                    onClick="rollDices()">
+        </div>
+       
+
+        <br>
+        <br>
+
+        <div id="diceNum"></div>
+        
+        <br>
+
+        
+        
+        <br>
+
+    </main>
+  </body>
+</html>

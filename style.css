@@ -1,0 +1,136 @@
+body {
+    background-color: #f6e8ea;
+}
+
+header {
+    background-color: #9ED8DB;
+    text-align: center;
+    padding: 13px;
+    border: solid;
+    border-radius: 8px;
+}
+
+
+div.moneyStatement {
+    text-align: center;
+    font-size: 40px;
+}
+
+#wallet {
+    font-size: 45px;
+    text-align: center;
+}
+
+#betStatus {
+    font-size: 35px;
+    text-align: center;
+}
+
+#moneyToWallet {
+    text-align: center;
+    font-size: 30px;
+    margin-right: auto;
+}
+
+#betToWallet {
+    text-align: center;
+    font-size: 30px;
+    margin-left: auto;
+}
+
+/* rahansyöttö */
+#money {
+    margin: 5px;
+}
+
+#moneyToWallet #submit {
+    background-color: #F05D5E;
+    border: solid;
+    border-radius: 8px;
+    border-color: #335C67;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#betToWallet {
+    text-align: center;
+    font-size: 30px;
+}
+
+#betToWallet #submit {
+    background-color: #F05D5E;
+    border: solid;
+    border-radius: 8px;
+    border-color: #335C67;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_item {
+     flex:0 0 180px;
+     margin:10px;
+}
+
+#roll {
+   text-align: center;
+}
+
+#roll #submit {
+    background-color: #F05D5E;
+    border: solid;
+    border-radius: 8px;
+    border-color: #335C67;
+    color: white;
+    padding: 35px 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.flex_container_dice {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_item_dice {
+    margin:10px 20px;
+    border:solid;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    background-color: #F3DE8A;
+}
+
+.flex_item_dice #dice1, #dice2, #dice3 {
+    padding: 30px 41px;
+    font-size: 35px;
+}
+
+#dicesTitle {
+    font-size: 30px;
+    text-align: center;
+}
+
+#answer {
+    text-align: center;
+    font-size: 35px;
+    color: #F05D5E;
+}
